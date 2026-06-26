@@ -12,7 +12,7 @@ export default function MessagesContainer( { messages, isLoading }: MessagesCont
     return (
         <div className="flex-1 overflow-y-auto p-4">
             {messages.length === 0 ? (
-                <div className="flex min-h-[50vh] items-center justify-center text-sm text-slate-500">
+                <div className="flex min-h-[50vh] items-center justify-center text-sm text-black">    
                     What can i help you with?
                 </div>
             ) : <div className="flex flex-col gap-4">
